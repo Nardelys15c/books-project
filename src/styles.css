@@ -17,6 +17,7 @@ grid-gap:65px;
 section{
     max-width: 1200px;
     margin: 0 auto;
+    padding: 100px 0;
 }
 
 header{
@@ -60,13 +61,39 @@ header a {
     margin: 0;
     text-decoration: none;
 }
+main img{
+    width:200px;
+    border-radius: 8px;
+}
+main h2, h4{
+font-size: 15px;
+font-weight: 800;
+line-height: 1;
+letter-spacing: 5px;
+text-align: left;
+
+}
+main h3{    
+font-size: 48px;
+font-weight: 800;
+line-height: 60.48px;
+text-align: left;
+}
+
+main p{
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+}
+
 
 footer{
     color:white;
     background-image: linear-gradient(rgba(83, 81, 91, 0.9), rgba(83, 81, 91, 0.9)), url('../images/footer2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 55px 0;
+   
    
 }
 footer h3{
