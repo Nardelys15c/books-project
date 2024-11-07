@@ -6,12 +6,18 @@ body{
 .container{
     max-width: 1400px;
     margin: 0 auto;
-
 }
+
 .grid{
 display: grid;
-grid-template-columns: 1fr 2fr 2fr;
 grid-gap:65px;
+}
+
+.grid-main{
+grid-template-columns: auto auto;
+}
+.grid-footer{
+grid-template-columns: 1fr 2fr 2fr;
 }
 
 section{
@@ -61,8 +67,12 @@ header a {
     margin: 0;
     text-decoration: none;
 }
+main{
+    background-color: #efd9de;
+}
+
 main img{
-    width:200px;
+    width:250px;
     border-radius: 8px;
 }
 main h2, h4{
@@ -72,12 +82,14 @@ line-height: 1;
 letter-spacing: 5px;
 text-align: left;
 
+
 }
 main h3{    
 font-size: 48px;
 font-weight: 800;
 line-height: 60.48px;
 text-align: left;
+margin: 0;
 }
 
 main p{
@@ -145,4 +157,21 @@ footer li{
         padding: 10px;
         font-size: 12px;
     }
+    main img{
+        width: 150px;
+    }
+
+    main h3{
+        font-size: 28px;
+        font-weight: 800;
+        line-height: 60.48px;
+   }
+    .grid{
+        grid-template-columns: 1fr;
+        grid-gap: 32px;
+    }
+    section{
+        padding:30px;
+    }
+     
 }
