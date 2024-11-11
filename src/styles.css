@@ -51,10 +51,18 @@ font-size: 16px;
 font-weight: 400;
 line-height: 26px;
 }
+.embed{
+    aspect-ratio: 1/1; 
+      padding: 10px;
+    }
+
 .card{
     background-color:#efd9de ;
     text-align: center;
     margin: 30px 0;
+}
+.card-header.grid{
+    grid-gap:0;
 }
 .card-body{
     padding: 30px;
@@ -129,7 +137,7 @@ main{
 }
 
 main img{
-    width:250px;
+    width:200px;
     border-radius: 8px;
     
 }
@@ -140,7 +148,7 @@ line-height: 1;
 letter-spacing: 5px;
 text-align: left;
 }
-main h2{
+main h1 h2{
     margin: 0;
     padding: 0px;
 }
@@ -232,5 +240,7 @@ footer li{
     section{
         padding:30px;
     }
-    
+    .embed{
+        aspect-ratio: 16/9;
+    }
 }
