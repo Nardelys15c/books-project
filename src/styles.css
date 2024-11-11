@@ -80,7 +80,39 @@ line-height: 26px;
     padding: 16px;
     text-decoration: none;
 }
+.grid-third-images{
+    display:grid;
+   grid-template-columns:repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 10px;
 
+    border-radius: 15px 0px 0px 0px;
+       
+     
+}
+.third h2{
+font-size: 13px;
+font-weight: 800;
+line-height: 16.38px;
+letter-spacing: 5px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.third h3{
+font-size: 48px;
+font-weight: 800;
+line-height: 60.48px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+padding-bottom: 10px;
+}
+.third img{
+    width: 270px;
+    height: 370px;
+}
 section{
         margin: 0 auto;
         padding: 100px;
