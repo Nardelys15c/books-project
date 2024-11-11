@@ -52,30 +52,34 @@ line-height: 26px;
 .card{
     background-color:#efd9de ;
     text-align: center;
+    margin: 30px 0;
+}
+.card-body{
+    padding: 30px;
 }
 
 .btn{
     background-color: #F92F60;
-     display:block;
+    display:block;
     color: white;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     line-height: 1.5;
     letter-spacing: 3px;
     text-align: center;
-    padding: 16px 32px 16px 32px;
-    gap: 10px;
-    border-radius: 5px 0px 0px 0px;
-    opacity: 0px; 
+    padding: 16px;
+    text-decoration: none;
 }
+
 section{
         margin: 0 auto;
-    padding: 100px;
+        padding: 100px;
 }
 section.secondary{
     background: #fffdfe;
 
 }
+
 
 header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
@@ -125,6 +129,7 @@ main{
 main img{
     width:250px;
     border-radius: 8px;
+    
 }
 main h2, h4{
 font-size: 15px;
@@ -132,6 +137,10 @@ font-weight: 800;
 line-height: 1;
 letter-spacing: 5px;
 text-align: left;
+}
+main h2{
+    margin: 0;
+    padding: 0px;
 }
 main h3{    
 font-size: 48px;
@@ -221,5 +230,5 @@ footer li{
     section{
         padding:30px;
     }
-     
+    
 }
